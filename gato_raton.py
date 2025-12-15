@@ -56,7 +56,7 @@ def movimientos_posibles(pos, movimiento, tabla):
         tabla[nueva_fila][nueva_columna] = agarrar_personaje 
         return tabla, (nueva_fila, nueva_columna)
     
-#Calcular la distancia mediante la matriz por posicion de dos elementos (metodo manhattan)[|X - X1| + |Y - Y1|]
+#Calcular la distancia mediante la matriz por posicion de dos elementos (metodo manhattan)
 def distancia_manhattan(pos1, pos2):
     distancia = abs(pos1[0] - pos2[0]) + abs(pos1[1] - pos2[1])
     return distancia
